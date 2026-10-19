@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+define('APP_ROOT', __DIR__);
+
+require APP_ROOT . '/vendor/autoload.php';
+
+use Magma\Console\Console;
+
+$console = new Console();
+
+exit($console->run($argv));
