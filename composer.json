@@ -1,4 +1,5 @@
 {
+    "name": "rolog/magma-app",
     "require": {
         "vlucas/phpdotenv": "^5.7",
         "rolog/magma": "^0.1.1"
